@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+/* CSS Document */
+html, body {
+
+	background-color: rgb(223, 223, 223);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald';
+}
+
+.logo img {
+	width: 100%;
+	max-width: 180px;
+	max-height: auto;
+	margin-bottom: 1px;
+
+}
+
+.menu {
+	width: 100%;
+	background-color: #161616;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #fff;
+	padding: 14px 16px;
+	display: block;
+}
+
+.menu a:hover {
+	transition: 0.5s;
+	background-color: rgb(170, 170, 170);
+	color: #000000;
+}
+
+header {
+	padding: 20px 0 0;
+}
+
+.logo-head {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.email {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.logo-head h3 {
+	width: 100%;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 15px;
+}
+
+.email img {
+	width: 100%;
+	max-width: 20px;
+	max-height: 220px;
+
+}
+
+.local img {
+	width: 100%;
+	max-width: 20px;
+	max-height: 20px;
+}
+
+.section-title {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./welcome.jpg);
+	background-position: center;
+	object-fit: cover;
+
+}
+
+.title{
+	text-align: left;
+	margin: 20px;
+}
+
+.title h3 {
+	width: 100%;
+	color: #fff;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+.title h1 {
+	width: 100%;
+	color: #fff;
+	font-weight: normal;
+	font-size: 60px;
+	margin-top: -40px;
+	line-height: 50px;
+}
+
+.title a {
+	display: inline-block;
+	background-color: #e23434;
+	cursor: pointer;
+	padding: 15px 30px;
+	color: #fff;
+	font-size: 20px;
+	margin-top: -20px;
+	font-weight: normal;
+	border-radius: 10px;
+	text-decoration: none
+}
+
+.title a:hover {
+	background-color: #e0414181;
+	color: #ffffff81;
+}
+
+.social {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+
+}
+
+.whats img {
+	width: 100%;
+	max-width: 350px;
+	max-height: 105px;
+}
+
+.insta img {
+	width: 100%;
+	max-width: 350px;
+	max-height: 105px;
+}
+
+.describe {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+}
+
+.describe h3 {
+	width: 100%;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.describe h2 {
+	width: 100%;
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-top: -15px;
+	color: #e23434;
+}
+
+.describe h1 {
+	width: 100%;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-top: -15px;
+}
+
+.fulldescribe {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+
+}
+
+.describe1 {
+	width: 350px;
+	text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.describe2 {
+	width: 350px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.describe3 {
+	width: 350px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.describe4 {
+	width: 350px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.describe1 img, .describe2 img, .describe3 img, .describe4 img {
+	width: 100%;
+	max-width: 110px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.fulldescribe p {
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: -20px;
+	line-height: 15px;
+}
+
+.fulldescribe h3 {
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: -10px;
+
+
+}
+
+.titleend h3 {
+	width: 100%;
+	color: #fff;
+	font-size: vh;
+	font-weight: normal;
+	line-height: 35px;
+}
+
+.titleend h3 a {
+	text-decoration: none;
+	color: rgb(37, 0, 250);
+}
+
+.titleend h3 a:hover {
+	text-decoration: none;
+	color: rgba(37, 0, 250, 0.432);
+}
+
+.rodape {
+	width: 100%;
+	background-color: #161616;
+	text-align: center;
+
+
+}
+@media (min-width:300px) and (max-width:700px) {
+	
+	
+	.fulldescribe {
+		flex-wrap: wrap;
+		
+	}
+
+	.social{
+		flex-direction: column;
+	}
+
+}
